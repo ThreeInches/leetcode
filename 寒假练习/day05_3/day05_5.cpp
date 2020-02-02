@@ -36,7 +36,7 @@ public:
 	}
 };
 
-int main()
+int main5()
 {
 	Solution a;
 	cout << a.isLongPressedName("alex", "aaleex") << endl;
