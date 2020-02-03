@@ -64,6 +64,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="day07_1.cpp" />
+    <ClCompile Include="day07_2.cpp" />
+    <ClCompile Include="day07_3.cpp" />
+    <ClCompile Include="day07_4.cpp" />
+    <ClCompile Include="day07_5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
