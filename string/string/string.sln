@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string", "string\string.vcxproj", "{26236BF7-D019-40CA-85C2-8C40359363AE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string模拟实现", "string模拟实现\string模拟实现.vcxproj", "{7FE3D374-0AE2-4D7C-82D6-696A3BC25BCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{26236BF7-D019-40CA-85C2-8C40359363AE}.Debug|Win32.Build.0 = Debug|Win32
 		{26236BF7-D019-40CA-85C2-8C40359363AE}.Release|Win32.ActiveCfg = Release|Win32
 		{26236BF7-D019-40CA-85C2-8C40359363AE}.Release|Win32.Build.0 = Release|Win32
+		{7FE3D374-0AE2-4D7C-82D6-696A3BC25BCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FE3D374-0AE2-4D7C-82D6-696A3BC25BCF}.Debug|Win32.Build.0 = Debug|Win32
+		{7FE3D374-0AE2-4D7C-82D6-696A3BC25BCF}.Release|Win32.ActiveCfg = Release|Win32
+		{7FE3D374-0AE2-4D7C-82D6-696A3BC25BCF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

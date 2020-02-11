@@ -1,10 +1,11 @@
 //#include <iostream>
+//#include <string>
 //using namespace std;
 //
-//class Solution
+//class solution
 //{
 //public:
-//	bool isPalindrome(string s)
+//	bool ispalindrome(string s)
 //	{
 //		string str;
 //		for (int i = 0; i < s.size(); i++)
@@ -13,7 +14,7 @@
 //			{
 //				s[i] -= 32;
 //			}
-//			if ((s[i] >= 'a'&&s[i] <= 'z') || (s[i] >= 'A'&&s[i] <= 'Z'))
+//			if ((s[i] >= 'a'&&s[i] <= 'z') || (s[i] >= 'a'&&s[i] <= 'z'))
 //			{
 //				str += s[i];
 //			}
@@ -35,13 +36,13 @@
 //
 //int main3()
 //{
-//	string s1("A man, a plan, a canal: Panama");
+//	string s1("a man, a plan, a canal: panama");
 //	string s2("race a car");
-//	string s3("0P");
-//	Solution a;
-//	cout << a.isPalindrome(s1) << endl;
-//	cout << a.isPalindrome(s2) << endl;
-//	cout << a.isPalindrome(s3) << endl;
+//	string s3("0p");
+//	solution a;
+//	cout << a.ispalindrome(s1) << endl;
+//	cout << a.ispalindrome(s2) << endl;
+//	cout << a.ispalindrome(s3) << endl;
 //	system("pause");
 //	return 0;
 //}

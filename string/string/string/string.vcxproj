@@ -68,7 +68,10 @@
     <ClCompile Include="字符串中的第一个唯一字符.cpp" />
     <ClCompile Include="字符串最后一个单词的长度.cpp" />
     <ClCompile Include="字符串相加.cpp" />
+    <ClCompile Include="找出字符串中第一个只出现一次的字符.cpp" />
+    <ClCompile Include="翻转字符串3.cpp" />
     <ClCompile Include="翻转字符串1.cpp" />
+    <ClCompile Include="翻转字符串2.cpp" />
     <ClCompile Include="验证一个字符串是否是回文.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

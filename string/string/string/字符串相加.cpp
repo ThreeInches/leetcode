@@ -7,6 +7,18 @@ class Solution
 public:
 	string addStrings(string num1, string num2)
 	{
+		string str;
+		int flag = 0;
+		if (num1.size() == 0)
+		{
+			return num2;
+		}
+		if (num2.size() == 0)
+		{
+			return num1;
+		}
+		reverse(num1.begin(), num1.end());
+		reverse(num2.begin(), num2.end());
 		if (num1.size() > num2.size())
 		{
 			swap(num1, num2);
@@ -14,31 +26,37 @@ public:
 		int gap = num2.size() - num1.size();
 		for (int i = 0; i < gap; i++)
 		{
-			num1.insert(0, "0");
+			num1.push_back('0');
 		}
-		for (int i = num1.size() - 1; i>0; i--)
+		for (int i = 0; i < num1.size(); i++)
 		{
-			num1[i] = num1[i] - '0' + num2[i];
-			if (num1[i] >= '10')
+			int tmp = num1[i] - '0' + num2[i] - '0' + flag;
+			if (tmp >= 10)
 			{
-				num1[i] = (num1[i] - '0') % 10 + '0';
-				num1[i - 1] = num1[i - 1] + 1;
+				tmp %= 10;
+				str.push_back(tmp + '0');
+				flag = 1;
+			}
+			else
+			{
+				str.push_back(tmp + '0');
+				flag = 0;
 			}
 		}
-		num1[0] = num1[0] - '0' + num2[0];
-		if (num1[0] >= '10')
+		if (flag == 1)
 		{
-			num1[0] = (num1[0] - '0') % 10 + '0';
-			num1 = '1' + num1;
+			str.push_back('1');
 		}
-		return num1;
+		reverse(str.begin(), str.end());
+		return str;
 	}
 };
 
-int main()
+int main5()
 {
 	Solution a;
 	cout << a.addStrings("9", "1") << endl;
+	cout << a.addStrings("0", "0") << endl;
 	system("pause");
 	return 0;
 }
