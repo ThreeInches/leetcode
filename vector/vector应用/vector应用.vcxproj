@@ -64,8 +64,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="只出现一次的数字.cpp" />
+    <ClCompile Include="删除排序数组中的重复项.cpp" />
+    <ClCompile Include="只出现一次的数字2.cpp" />
+    <ClCompile Include="只出现一次的数字1.cpp" />
+    <ClCompile Include="只出现一次的数字3.cpp" />
+    <ClCompile Include="数组中出现次数超过一半的数字.cpp" />
     <ClCompile Include="杨辉三角.cpp" />
+    <ClCompile Include="电话号码字母组合.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
